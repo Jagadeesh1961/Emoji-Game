@@ -1,0 +1,85 @@
+.win-or-lose-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 30px;
+  border: 3px solid #ffffff30;
+  text-align: center;
+  width: 80%;
+  max-width: 650px;
+}
+@media screen and (min-width: 768px) {
+  .win-or-lose-container {
+    flex-direction: row;
+  }
+}
+.head-text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .head-text {
+    font-size: 54px;
+  }
+}
+
+.score-text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .score-text {
+    font-size: 32px;
+  }
+}
+
+.score-number-value {
+  color: #6a59ff;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .score-number-value {
+    font-size: 48px;
+  }
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.lose-win-logo {
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .lose-win-logo {
+    width: 300px;
+  }
+}

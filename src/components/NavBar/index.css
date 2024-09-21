@@ -1,0 +1,62 @@
+/* Write your code here. */
+.nav-bar-container {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+.emoji-game {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game {
+    font-size: 24px;
+  }
+}
+
+.score-container {
+  display: flex;
+}
+
+.score {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 18px;
+    margin-left: 32px;
+  }
+}
